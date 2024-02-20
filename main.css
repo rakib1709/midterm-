@@ -1,0 +1,103 @@
+body {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    border: 2px solid #000;
+    font: 16px/1.5 "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  
+  .structural {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  
+  h1 {
+    color: #9a420f;
+    font-size: 20px;
+    border: #000;
+    text-align: center;
+    background-color: moccasin;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  
+  
+  h2 {
+    color: black;
+    font-size: 20px;
+  }
+  
+  
+  main {
+    height: 70vh;
+  }
+  
+  
+  img {
+    border: 2px solid #060303;
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+  }
+  
+  
+  figure {
+    background-color: #e5750c;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  
+  figure:nth-child(even)
+  {
+    float: right;
+  }
+  
+  figure:nth-child(odd) 
+  {
+    float: left;
+  }
+  
+  
+  section {
+    clear: both;
+  }
+  
+ 
+  figcaption {
+    font-weight: bold;
+    font-size: 14px;
+    color: #007899;
+    padding: 5px;
+  }
+  
+  
+  a {
+    color: #2b09eb;
+  }
+  
+  
+ :hover{
+    color: rgb(194, 5, 5);
+ }
+
+ul {
+    list-style-type: square;
+    line-height: 1.4;
+}
+
+header{
+    background-color: rgb(210, 209, 209) ;
+}
+footer {
+    background-color: rgb(210, 209, 209);
+}
+
+#apple1,#apple2{
+    border: 2px solid  black;
+    border-radius: 10px;
+}
